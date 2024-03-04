@@ -171,7 +171,7 @@ table {
 }
 
 .main .middle .middle-left { 
-    background-color: aliceblue;
+    background-color: #ddeafa;
     padding: 50px 30px;
     border-radius: 25px;
     width: 45%;
@@ -377,6 +377,9 @@ table {
     display: block;
 }
 
+.spotlight .top .global .valley{
+
+}
 .spotlight .top .global h3 { 
     font-size: 22px;
     font-family: 'Poppins';
@@ -413,6 +416,9 @@ table {
     display: block;
 }
 
+.spotlight .top .hub .turn{
+
+}
 .spotlight .top .hub h3 { 
     font-size: 22px;
     font-family: 'Poppins';
@@ -449,6 +455,9 @@ table {
     display: block;
 }
 
+.spotlight .top .world .needs{
+
+}
 .spotlight .top .world h3 { 
     font-size: 22px;
     font-family: 'Poppins';
@@ -487,22 +496,25 @@ table {
 }
 
 .spotlight .box .box-right { 
+
+}
+
+.spotlight .box .box-right h3 { 
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    margin-left: 35px;    margin-bottom: 25px;
+}
+
+.spotlight .box .box-right p { 
     color: #fff;
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
     margin-left: 35px;
-}
-
-.spotlight .box .box-right h3 { 
-    font-size: 25px;
-    margin-bottom: 25px;
-}
-
-.spotlight .box .box-right p { 
-    font-size: 16px;
-
 }
 
 
@@ -544,7 +556,7 @@ table {
     font-size: 17px;
     font-family: 'Poppins';
     font-weight: 600;
-    color: darkgray;
+    color: #6e6363;
     line-height: 30px;
     margin-bottom: 15px;
 
@@ -634,7 +646,7 @@ table {
     font-size: 17px;
     font-family: 'Poppins';
     font-weight: 600;
-    color: darkgray;
+    color: #6e6363;
     line-height: 30px;
     margin-bottom: 30px;
 }
@@ -975,11 +987,12 @@ section.startup div.list div.item div.bottom button{
     }
     .it-parks .wrapper .parks-top .top-right {
         width: 100%;
-        height: 432px;
+        height: 455px;
     }
     .it-parks .wrapper .parks-top .top-right .over img {
         height: 434px;
-    }.it-parks .wrapper .parks-top {
+    }
+    .it-parks .wrapper .parks-top {
         flex-direction: column-reverse;
     }
     .it-parks .wrapper .parks-top .top-left {
@@ -987,8 +1000,481 @@ section.startup div.list div.item div.bottom button{
         text-align: center;
     }.it-parks .wrapper .parks-bottom{
         width: 100%;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
-
-
+    .spotlight h1 {
+        font-size: 28px;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-left {
+        width: 100%;
+        height: 430px;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-left .lay {
+        display: none;
+    }
+    .it-parks .wrapper .parks-top .top-right .over {
+        display: none;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-right {
+        width: 95%;
+        text-align: -webkit-center;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-right p {
+        width: 90%;
+    }
+    section.startup div.list div.item div.top img {
+        margin-top: 26px;
+    }
+    section.startup div.list div.item {
+        width: 30%;
+    }
+}
+@media all and (max-width: 768px){
+    .header .container .right {
+        display: none;
+    }
+    .main .top h1 {
+        font-size: 22px;
+    }
+    .main .top p {
+        font-size: 16px;
+    }
+    .main .middle {
+        flex-wrap: wrap;
+    }
+    .main .middle .middle-left{
+        width: 100%;
+        padding: 35px 30px;
+    }
+    .main .middle .middle-left h1 {
+        font-size: 45px;
+    }
+    .main .middle .middle-left p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .main .middle .middle-right{
+        padding: 35px 30px;
+        width: 100%;
+    }
+    .main .middle .middle-right h1{
+        font-size: 45px;
+    }
+    .main .middle .middle-right p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .main .bottom .one {
+        width: 100%;
+        padding: 35px 30px;
+    }
+    .main .bottom .one h1{
+        font-size: 45px;
+    }
+    .main .bottom .one p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .main .bottom .two{
+        width: 100%;
+        padding: 35px 30px;
+    }
+    .main .bottom .two h1{
+        font-size: 45px;
+    }
+    .main .bottom .two p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .main .bottom .three{
+        width: 100%;
+        padding: 35px 30px;
+    }
+    .main .bottom .three h1{
+        font-size: 45px;
+    }
+    .main .bottom .three p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .spotlight h1 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .spotlight .top {
+        flex-wrap: wrap;
+    }
+    .spotlight .top .global{
+        width: 35%;
+    }
+    .spotlight .top .hub{
+        width: 35%;
+    }
+    .spotlight .top .world {
+        width: 35%;
+    }
+    .spotlight .box .box-right p {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .spotlight .box .box-right h3 {
+        font-size: 23px;
+        line-height: 30px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    .spotlight .box .box-left {
+        width: 30%;
+    }
+    .spotlight .box .box-right {
+        width: 70%;
+    }
+    .it-parks .wrapper .parks-top .top-right {
+        border-radius: 0px 30px 0px 0px;
+    }
+    .it-parks .wrapper .parks-top .top-left {
+        width: 93%;
+        padding: 40px 30px;
+    }
+    .it-parks .wrapper .parks-top .top-left h2 {
+        font-size: 30px;
+    }
+    .it-parks .wrapper .parks-top .top-left p {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .it-parks .wrapper .parks-top .top-left button{
+        width: 30%;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-left {
+        border-radius: 50px 40px 0px 10px;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-right {
+        width: 93%;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-right h2 {
+        font-size: 27px;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-right p{
+        font-size: 16px;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-right{
+        padding: 40px 20px;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-right button {
+        width: 30%;
+    }
+    .startup .tech p {
+        width: 100%;    
+        font-size: 15px;
+    }
+    section.startup div.list div.item {
+        width: 46%;
+    }
+    section.startup div.list div.item div.top {
+        width: 100%;
+        height: 200px;
+    }
+    .footer .wrapper .item{
+        flex-wrap: wrap-reverse;
+    }
+    .footer .wrapper .item .footer-left {
+        margin: 0 auto;
+    }
+    .footer .wrapper .item .footer-right {
+        margin: 0 auto;
+    }
+    .footer .wrapper .item .footer-right ul {
+        margin-bottom: 20px;
+    }
+}
+@media all and (max-width: 640px){
+    .main .top h1 {
+        font-size: 21px;
+    }
+    .main .top p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .main .middle{
+        margin-top: 35px;
+    }
+    .spotlight .top .global {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 20px 30px;
+    }
+    .spotlight .top .global .super {
+        width: 20%;
+        margin: inherit;
+    }
+    .spotlight .top .global .valley {
+        margin-top: 10px;
+    }
+    .spotlight .top .global p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .spotlight .top .hub {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 20px 30px;
+    }
+    .spotlight .top .hub .dot {
+        width: 20%;
+        margin: inherit;
+    }
+    .spotlight .top .hub .turn {
+        margin-top: 10px;
+    }
+    .spotlight .top .hub p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .spotlight .top .world {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 20px 30px;
+    }
+    .spotlight .top .world .smal {
+        width: 20%;
+        margin: inherit;
+    }
+    .spotlight .top .world .needs {
+        margin-top: 10px;
+    }
+    .spotlight .top .world p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .spotlight .box {
+        display: block;
+    }
+    .spotlight .box .box-right h3 {
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .spotlight .box .box-left {
+        width: 60%;
+    }
+    .spotlight .box .box-right p{
+        width: 155%;
+        font-size: 13px;
+    }
+    .startup .tech h1 {
+        font-size: 23px;
+        margin-bottom: 13px;
+    }
+    section.startup div.list div.item {
+        width: 44%;
+    }
+    section.startup div.list div.item div.top {
+        height: 170px;
+    }
+    section.startup div.list div.item div.bottom p {
+        font-size: 12px;
+    }
+    section.startup div.list div.item div.bottom {
+        height: 220px;
+    }
+    section.startup div.list div.item div.bottom button {
+        width: 100%;
+    }
+    .footer .wrapper .item .footer-left span{
+        font-size: 12px;
+    }
+    .footer .wrapper .item .footer-left p{
+        font-size: 12px;
+    }
+}
+@media all and (max-width: 480px){
+    .it-parks .wrapper .parks-top .top-right {
+        border-radius: 0px 30px 0px 0px;
+        height: 70vh;
+    }
+    .main {
+        padding: 40px;
+        margin-top: 70px;
+    }
+    .main .top {
+        padding: 20px 30px;
+    }
+    .main .top h1 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .main .middle .middle-left h4 {
+        font-size: 20px;
+    }
+    .main .middle .middle-left p {
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+    .main .middle .middle-right h4{
+        font-size: 20px;
+    }
+    .main .middle .middle-right p {
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+    .main .bottom .one h4 {
+        font-size: 20px;
+    }
+    .main .bottom .one p {
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+    .main .bottom .two h4{
+        font-size: 20px;
+    }
+    .main .bottom .two p{
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+    .main .bottom .three h4{
+        font-size: 20px;
+    }
+    .main .bottom .three p{
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+    .spotlight {
+        padding: 0px 40px;
+    }
+    .main .bottom {
+        padding: 10px 0px;
+    }
+    .spotlight .box .box-right h3 {
+        width: 143%;
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .spotlight .box .box-right p {
+        width: 147%;
+    }
+    .it-parks {
+        padding: 30px 40px;
+    }
+    .it-parks .wrapper .parks-top .top-left {
+        width: 80%;
+        padding: 10px 30px;
+    }    
+    .it-parks .wrapper .parks-top .top-left h2 {
+        font-size: 25px;
+    }
+    .it-parks .wrapper .parks-top .top-left p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .it-parks .wrapper .parks-top .top-left button {
+        width: 55%;
+        padding: 12px 20px;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-left{
+        height: 70vh;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-right h2 {
+        font-size: 25px;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-right p {
+        font-size: 15px;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-right button {
+        width: 55%;
+        padding: 12px 20px;
+    }
+    .startup {
+        padding: 50px 40px;
+    }
+    .startup .tech h1{
+        text-align: center;
+    }
+    section.startup div.list div.item {
+        width: 80%;
+    }
+    section.startup div.list div.item div.top {
+        height: 215px;
+    }
+    section.startup div.list div.item div.bottom {
+        height: 165px;
+    }
+    .footer {
+        padding: 25px 40px;
+    }
+    .footer .wrapper .item .footer-left {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .wrapper .item .footer-left span {
+        font-size: 13px;
+    }
+    .footer .wrapper .item .footer-left p {
+        font-size: 14px;
+        margin: 0 auto;
+    }
+}
+@media all and (max-width: 360px){
+    .main .middle .middle-left h1 {
+        font-size: 40px;
+    }
+    .main .middle .middle-left h4 {
+        font-size: 16px;
+    }
+    .main .middle .middle-right h1{
+        font-size: 40px;
+    }
+    .main .middle .middle-right h4{
+        font-size: 16px;
+    }
+    .main .bottom .one h1{
+        font-size: 40px;
+    }
+    .main .bottom .one h4{
+        font-size: 16px;
+    }
+    .main .bottom .two h1{
+        font-size: 40px;
+    }
+    .main .bottom .two h4{
+        font-size: 16px;
+    }
+    .main .bottom .three h1{
+        font-size: 40px;
+    }
+    .main .bottom .three h4{
+        font-size: 16px;
+    }
+    .spotlight .top .global .super {
+        width: 30%;
+    }
+    .spotlight .top .hub .dot {
+        width: 38%;
+    }
+    .spotlight .top .world .smal {
+        width: 30%;
+    }
+    .it-parks .wrapper .parks-top .top-left h2 {
+        font-size: 22px;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-right h2 {
+        font-size: 23px;
+    }
+    section.startup div.list div.item div.top {
+        height: 200px;
+    }
+    section.startup div.list div.item div.bottom {
+        height: 195px;
+    }
+    section.startup div.list div.item div.top button {
+        bottom: 11px;
+    }
 }
