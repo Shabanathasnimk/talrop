@@ -729,8 +729,8 @@ section.startup div.list div.item div.top button{
     font-family: 'Poppins';
     font-weight: 500;
     color: #fff;
-    /* background: linear-gradient(127deg, rgb(15, 167, 111) -13%, rgb(15, 158, 167) 100%); */
-    background-color: rgb(46 106 161);
+    background: linear-gradient(127deg, rgb(15, 167, 111) -13%, rgb(15, 158, 167) 100%);
+    /* background-color: rgb(46 106 161); */
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -773,36 +773,6 @@ section.startup div.list div.item div.bottom button{
     cursor: pointer;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .footer { 
@@ -857,4 +827,168 @@ section.startup div.list div.item div.bottom button{
 .footer .wrapper .item .footer-right ul li img { 
     width: 100%;
     display: block;
+}
+
+@media all and (max-width: 1280px){
+    .main .top h1 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+    section.startup div.list div.item div.bottom{
+        height: 260px;
+    }
+    section.startup div.list div.item div.bottom button {
+        width: 85%;
+    }
+    section.startup div.list div.item div.top img{
+        margin-top: 20px;
+    }
+    .startup .tech p{
+        width: 59%;
+    }
+    .it-parks .wrapper .parks-top .top-right .over img{
+        height: 390px;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-left .lay img{
+        height: 390px;
+    }
+    section.startup div.list div.item {
+    width: 21%;
+    margin: 10px 10px 50px;
+
+    }
+    section.startup div.list div.item div.top button{
+        bottom: 5px;
+        right: 10px;
+    }
+    section.startup div.list{
+        justify-content: center;
+
+    }
+}
+@media all and (max-width: 1080px){
+    .main .top h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .main .bottom {
+        flex-wrap: wrap;
+    }
+    .main .bottom .one {
+        width: 40%;
+    }
+    .main .bottom .two{
+        width: 40%;
+    }
+    .main .bottom .three{
+        width: 40%;
+    }
+    .it-parks .wrapper .parks-top .top-left h2{
+        font-size: 33px;
+    }
+    .it-parks .wrapper .parks-top .top-left p {
+        font-size: 17px;
+        line-height: 27px;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-right h2 {
+        font-size: 33px;
+    }
+    .it-parks .wrapper .parks-bottom .bottom-right p{
+        font-size: 17px;
+        line-height: 27px;
+        width: 65%;
+    }
+    .startup .tech p {
+        width: 91%;
+        margin-bottom: 0rem;
+    }
+    section.startup div.list div.item {
+        margin: 10px 10px 10px;
+    }
+    section.startup div.list div.item {
+        width: 26%;
+    }
+}
+@media all and (max-width: 980px){
+    .main .top h1 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .main .top p {
+        font-size: 17px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+    .main .middle {
+        gap: 40px;
+    }
+    .main .bottom {
+        flex-wrap: wrap;
+    }
+    .main .bottom .one {
+        width: 38%;
+    }
+    .main .bottom .two {
+        width: 38%;
+    }
+    .main .bottom .three{
+        width: 38%;
+    }
+    .spotlight .top .global .super {
+        width: 30%;
+    }
+    .spotlight .top .global h3 {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    .spotlight .top .global p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .spotlight .top .hub .dot {
+        width: 35%;
+    }
+    .spotlight .top .hub h3 {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    .spotlight .top .world .smal {
+        width: 35%;
+    }
+    .spotlight .top .world h3 {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    .spotlight .top .hub p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .spotlight .top .world p{
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .spotlight .box .box-left {
+        width: 100%;
+    }
+    .it-parks .wrapper .parks-top .top-right {
+        width: 100%;
+        height: 432px;
+    }
+    .it-parks .wrapper .parks-top .top-right .over img {
+        height: 434px;
+    }.it-parks .wrapper .parks-top {
+        flex-direction: column-reverse;
+    }
+    .it-parks .wrapper .parks-top .top-left {
+        width: 95%;
+        text-align: center;
+    }.it-parks .wrapper .parks-bottom{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+
 }
