@@ -505,7 +505,8 @@ table {
     font-weight: 600;
     font-size: 25px;
     line-height: 22px;
-    margin-left: 35px;    margin-bottom: 25px;
+    margin-left: 35px;    
+    margin-bottom: 25px;
 }
 
 .spotlight .box .box-right p { 
@@ -580,11 +581,6 @@ table {
     background-position: 10px 10px;
     background-repeat: no-repeat;
     border-radius: 0px 50px 15px 0px;
-    /* border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px; */
-    /* border-top-right-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem; */
-    
 }
 .it-parks .wrapper .parks-top .top-right .over{
 
@@ -610,10 +606,6 @@ table {
     background-position: 10px 10px;
     background-repeat: no-repeat;
     border-radius: 60px 0px 0px 40px;
-    /* border-top-left-radius: 80px;
-    border-bottom-left-radius: 60px; */
-    /* border-top-left-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem; */
 }
 
 .it-parks .wrapper .parks-bottom .bottom-left .lay{
@@ -706,7 +698,11 @@ section.startup div.list{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-section.startup div.list div.item {
+section.startup div.list .up{
+    display: flex;
+}
+
+section.startup div.list .up div.item {
     width: 18%;
     display: flex;
     flex-direction: column;
@@ -714,7 +710,7 @@ section.startup div.list div.item {
     margin-bottom: 30px;
 }
 
-section.startup div.list div.item div.top{
+section.startup div.list .up div.item div.top{
     width: 100%;
     height:180px;
     align-items: center;
@@ -724,7 +720,7 @@ section.startup div.list div.item div.top{
     /* border-bottom-left-radius: 0;
     border-bottom-right-radius: 0; */
 }
-section.startup div.list div.item div.top img{
+section.startup div.list .up div.item div.top img{
     display: block;
     width: 100%;
     height:100%;
@@ -734,7 +730,8 @@ section.startup div.list div.item div.top img{
     margin-top: 13px;
 
 }
-section.startup div.list div.item div.top button{
+
+section.startup div.list .up div.item div.top button{
     padding: 7px 15px;
     font-size: 15px;
     border-radius: 5px;
@@ -747,30 +744,30 @@ section.startup div.list div.item div.top button{
     bottom: 20px;
     right: 20px;
 }
-section.startup div.list div.item div.bottom{
+section.startup div.list .up div.item div.bottom{
     background-color: rgb(255 255 255);
     height: 200px;
     padding : 20px 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-        border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-section.startup div.list div.item div.bottom h3{
+section.startup div.list .up div.item div.bottom h3{
     font-size: 20px;
     font-family: 'Poppins';
     font-weight: 500;
     margin-bottom: 10px;
 }
-section.startup div.list div.item div.bottom p{
+section.startup div.list .up div.item div.bottom p{
         font-size: 14px;
     font-family: 'Poppins';
     font-weight: 600;
     line-height: 25px;
     color: darkgray;
 }
-section.startup div.list div.item div.bottom button{
+section.startup div.list .up div.item div.bottom button{
     width: 75%;
     display: flex;
     align-items: center;
@@ -785,6 +782,107 @@ section.startup div.list div.item div.bottom button{
     cursor: pointer;
 
 }
+
+section.startup div.list .down {
+    display: flex;
+}
+section.startup div.list .down div.item {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+section.startup div.list .down div.item div.top{
+    width: 100%;
+    height:180px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    /* border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; */
+}
+section.startup div.list .down div.item div.top img{
+    display: block;
+    width: 100%;
+    height:100%;
+    border-radius: 23px 23px 0px 0px;
+    /* border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; */
+    margin-top: 13px;
+
+}
+
+section.startup div.list .down div.item div.top button{
+    padding: 7px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #fff;
+    /* background: linear-gradient(127deg, rgb(15, 167, 111) -13%, rgb(15, 158, 167) 100%); */
+    background-color: rgb(46 106 161);
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+section.startup div.list .down div.item div.bottom{
+    background-color: rgb(255 255 255);
+    height: 200px;
+    padding : 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+section.startup div.list .down div.item div.bottom h3{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+section.startup div.list .down div.item div.bottom p{
+        font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 25px;
+    color: darkgray;
+}
+section.startup div.list .down div.item div.bottom button{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    font-size: .875rem;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(15 167 111 );
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .footer { 
